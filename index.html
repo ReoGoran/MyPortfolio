@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nama Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#organization">Organization</a></li>
+                <li><a href="#activity">Activity</a></li>
+                <li><a href="#articles">Articles</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-1">
+        <div class="hero-content container">
+            <div class="hero-flex">
+                <div class="hero-left">
+                    <div class="profile-image">
+                        <img src="images/profile/ferdy.jpg" alt="Profile Picture">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ReoGoran" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                        <a href="https://linkedin.com/in/ferdy" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://wa.me/6283865368161" class="social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://instagram.com/femurego" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-text">
+                        <h1 class="typed-text"></h1>
+                        <h2 class="role">Web & AI Developer</h2>
+                        <div class="hero-description">
+                            <p>Saya adalah seorang pengembang yang antusias dalam menggabungkan pengembangan web modern dengan kekuatan kecerdasan buatan. Berpengalaman dalam membangun aplikasi yang responsif, intuitif, dan skalabel�baik dari sisi frontend maupun backend�saya berfokus pada pembuatan solusi cerdas yang tidak hanya menarik secara tampilan, tetapi juga efektif dalam menyelesaikan masalah nyata.</p>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="/pages/contact/index.html" class="btn primary-btn">Contact Me</a>
+                            <a href="#projects" class="btn secondary-btn">View My Work</a>
+                        </div>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">+2</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">??</div>
+                            <div class="stat-label">Keep Learning & Growing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-2">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Halo! Saya adalah seorang Web & AI Developer yang senang membangun solusi digital yang modern dan cerdas. Dengan latar belakang di bidang pengembangan web (frontend & backend) serta kecerdasan buatan (AI), saya berkomitmen menciptakan aplikasi yang tidak hanya menarik secara visual, tetapi juga fungsional dan bermanfaat bagi pengguna. Saya percaya bahwa teknologi seharusnya memudahkan hidup, bukan mempersulit. Oleh karena itu, setiap proyek yang saya kerjakan selalu saya fokuskan pada pengalaman pengguna, efisiensi, dan dampak nyata. Baik itu membangun website portfolio, sistem berbasis AI, atau tools interaktif lainnya. Saya selalu terbuka untuk belajar dan berkembang.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Name:</span>
+                            <span class="detail-value">Ferdy Mulyadi Reo Goran</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Age:</span>
+                            <span class="detail-value">20</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Kepulauan Riau, Indonesia</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">ferdymulyadi07@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">XAMPP/Laragon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Membangun website modern dan responsif, lengkap dengan frontend dan backend yang terstruktur rapi.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Membangun fitur cerdas berbasis AI yang dapat memproses data, memberikan rekomendasi, dan berinteraksi secara otomatis melalui chatbot.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Merancang antarmuka yang sederhana dan mudah digunakan, dengan pendekatan desain yang ramah pengguna dan konsisten.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Learning & Research</h3>
+                    <p>Terus memperdalam teknologi terbaru di bidang web dan AI sebagai bentuk pengembangan diri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What I Believe</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>�Saya percaya bahwa teknologi yang hebat dimulai dari pemahaman yang baik terhadap masalah. Itulah kenapa saya selalu memulai proyek dengan eksplorasi dan empati.�</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <i class="fas fa-lightbulb fa-2x" style="color: #ffc107;"></i>
+                        <div class="author-info">
+                            <h4>Ferdy Mulyadi Reo Goran</h4>
+                            <span>Web & AI Developer</span>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>�Saya suka tantangan. Entah itu debugging error tengah malam atau merancang fitur AI dari nol, saya menganggapnya sebagai peluang untuk tumbuh.�</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <i class="fas fa-fire fa-2x" style="color: #ff5722;"></i>
+                        <div class="author-info">
+                            <h4>Ferdy Mulyadi Reo Goran</h4>
+                            <span>Web & AI Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>�Setiap baris kode saya tulis dengan tujuan: agar bermanfaat dan bermakna. Bukan sekadar bekerja, tapi membangun sesuatu yang berdampak.�</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <i class="fas fa-code fa-2x" style="color: #00e676;"></i>
+                        <div class="author-info">
+                            <h4>Ferdy Mulyadi Reo Goran</h4>
+                            <span>Web & AI Developer</span>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-3">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Dynamic skills will be loaded here -->
+                </div>
+                <div class="skills-list">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags" id="skill-tags">
+                        <!-- Dynamic technical skills will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-4">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+            <div class="project-grid" id="dynamic-projects">
+                <!-- Dynamic projects will be loaded here by JS -->
+            </div>
+            <div class="project-grid" id="static-projects">
+                <!-- Kosong, semua project sudah tampil dinamis dari database -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <!-- Dynamic education will be loaded here by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-5">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-timeline" id="experience-timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-items"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization" class="organization">
+        <div class="container">
+            <h2>Organization</h2>
+            <div class="org-grid">
+                <!-- Dynamic organization will be loaded here by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Activity Section -->
+    <section id="activity" class="activity">
+        <div class="container">
+            <h2>Recent Activities</h2>
+            <div class="activity-filters">
+                <!-- Filter buttons will be dynamically inserted here by JavaScript -->
+            </div>
+            <div class="activity-grid">
+                <!-- Dynamic activities will be loaded here by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles Section -->
+    <section id="articles" class="articles section-6">
+        <div class="container">
+            <h2>Latest Articles</h2>
+            <div class="articles-filters">
+                <!-- Filter buttons will be dynamically inserted here by JavaScript -->
+            </div>
+            <div class="articles-grid">
+                <!-- Data artikel diambil dinamis dari database, tidak hardcoded di sini lagi. -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Me</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:ferdymulyadi07@gmail.com">ferdymulyadi07@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+6283865368161">+6283865368161</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kepulauan Riau, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="quick-links">
+                        <a href="#home">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                        <a href="#skills">
+                            <i class="fas fa-code"></i>
+                            <span>Skills</span>
+                        </a>
+                        <a href="#projects">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Projects</span>
+                        </a>
+                        <a href="#education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Education</span>
+                        </a>
+                        <a href="#experience">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Experience</span>
+                        </a>
+                        <a href="#organization">
+                            <i class="fas fa-users"></i>
+                            <span>Organization</span>
+                        </a>
+                        <a href="#activity">
+                            <i class="fas fa-tasks"></i>
+                            <span>Activity</span>
+                        </a>
+                        <a href="#articles">
+                            <i class="fas fa-newspaper"></i>
+                            <span>Articles</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/ReoGoran" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                        <a href="https://linkedin.com/in/username" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://wa.me/6283865368161" class="social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://instagram.com/femurego" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Portfolio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal untuk Foto Profil -->
+    <div id="profileModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage" src="" alt="Profile Picture">
+    </div>
+
+    <!-- JavaScript Libraries (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Main JS -->
+    <script src="main.js"></script>
+    <script>
+    // Dynamic Skills Section
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('get-skills.php')
+            .then(res => res.json())
+            .then(data => {
+                if (!data.skills) return;
+                // Render main skills
+                const grid = document.getElementById('skills-grid');
+                let gridHTML = '';
+                let allTech = [];
+                data.skills.forEach(skill => {
+                    // Ambil technical skills untuk bagian bawah
+                    if (Array.isArray(skill.technical_skills)) {
+                        allTech = allTech.concat(skill.technical_skills);
+                    }
+                    // Tampilkan hanya skill utama (bukan skill khusus technical skills)
+                    if (skill.name !== 'Technical Skills') {
+                        gridHTML += `<div class="skill-card">
+                            <div class="skill-header">
+                                <i class="${iconForSkill(skill.name)}"></i>
+                                <h3>${escapeHTML(skill.name)}</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: ${skill.proficiency}%"></div>
+                                </div>
+                                <span class="progress-text">${skill.proficiency}%</span>
+                            </div>
+                        </div>`;
+                    }
+                });
+                grid.innerHTML = gridHTML;
+                // Render technical skills (unique)
+                const tags = document.getElementById('skill-tags');
+                let uniqueTech = [...new Set(allTech.filter(Boolean))];
+                tags.innerHTML = uniqueTech.map(t => `<span class="skill-tag">${escapeHTML(t)}</span>`).join('');
+            });
+        // Helper: icon for skill name
+        function iconForSkill(name) {
+            name = name.toLowerCase();
+            if (name.includes('frontend')) return 'fas fa-code';
+            if (name.includes('backend')) return 'fas fa-server';
+            if (name.includes('ui') || name.includes('ux')) return 'fas fa-paint-brush';
+            if (name.includes('ai')) return 'fas fa-brain';
+            return 'fas fa-star';
+        }
+        // Helper: escape HTML
+        function escapeHTML(str) {
+            return String(str).replace(/[&<>"']/g, function(m) {
+                return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'})[m];
+            });
+        }
+    });
+    </script>
+    <script>
+    $(function(){
+        if (typeof renderExperienceSection === 'function') {
+            renderExperienceSection();
+        }
+        if (typeof renderProjects === 'function' && typeof fetchProjectsAndRender === 'function') {
+            fetchProjectsAndRender();
+        }
+        if (typeof renderEducationSection === 'function') {
+            renderEducationSection();
+        }
+        if (typeof renderOrganizationSection === 'function') {
+            renderOrganizationSection();
+        }
+        if (typeof renderActivitySection === 'function') {
+            renderActivitySection();
+        }
+        if (typeof renderArticlesSection === 'function') {
+            renderArticlesSection();
+        }
+    });
+    </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+  const navLinks = document.querySelector(".nav-links");
+  if (mobileMenuBtn && navLinks) {
+    mobileMenuBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      navLinks.classList.toggle("active");
+      mobileMenuBtn.classList.toggle("active");
+    });
+    // Close menu when link diklik (mobile UX)
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+        mobileMenuBtn.classList.remove("active");
+      });
+    });
+  }
+  // Close mobile menu when clicking outside
+  window.addEventListener("click", (e) => {
+    if (
+      navLinks &&
+      navLinks.classList.contains("active") &&
+      !navLinks.contains(e.target) &&
+      !mobileMenuBtn.contains(e.target)
+    ) {
+      navLinks.classList.remove("active");
+      mobileMenuBtn.classList.remove("active");
+    }
+  });
+});
+</script>
+</body>
+</html>
