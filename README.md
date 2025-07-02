@@ -16,7 +16,7 @@ Beranda – Menampilkan foto dan deskripsi singkat tentang saya.
 
 Skills – Berisi daftar kemampuan atau keahlian yang saya kuasai.
 
-Projects – Daftar proyek yang pernah saya kerjakan, lengkap dengan penjelasan dan (jika ada) tautan live.
+Projects – Daftar proyek yang pernah saya kerjakan, lengkap dengan penjelasan dan ada tautan livenya.
 
 Pendidikan & Pengalaman – Riwayat sekolah/kuliah dan pengalaman kerja atau magang.
 
