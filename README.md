@@ -2,6 +2,12 @@ Website ini adalah portofolio pribadi yang saya buat untuk menampilkan data diri
 
 Tujuan dari website ini adalah sebagai media personal branding, memudahkan orang lain untuk mengenal saya secara profesional, dan juga sebagai bukti nyata hasil pembelajaran dan pengembangan saya di dunia web development.
 
+🔗 Link Akses Website
+
+Website ini bisa diakses secara online melalui link berikut:
+
+http://portofolio.mkz.my.id
+
 🧩 Apa Saja Isi Website Ini?
 
 Website ini terdiri dari beberapa halaman utama seperti:
